@@ -15,7 +15,7 @@ TEST(COLLECT, when_vehicle_reports_a_measurement_is_is_fetched_and_stored_with_v
     vehicleOutputDetails outputDetails_x = get_updated_vehicle_measurement(vehicle_x);
 
     ASSER_EQ(1, outputDetails_x.id);
-    // ASSERT_NEAR(add_numbers(6.5, 2.5), 9, 0.001);
+    /*ASSERT_NEAR(add_numbers(6.5, 2.5), 9, 0.001);*/ // For float we can not assert equal. we can assuem equal upto certail decimal places
     
 }
 
